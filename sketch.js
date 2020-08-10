@@ -14,10 +14,10 @@ var track, car1_img, car2_img, car3_img, car4_img;
 
 function preload(){
   track = loadImage("images/track.jpg");
-  car1_img = loadImage("images/car1.png");
-  car2_img = loadImage("images/car2.png");
-  car3_img = loadImage("images/car3.png");
-  car4_img = loadImage("images/car4.png");
+  car1_img = loadImage("images/Running boy.jpg");
+  car2_img = loadImage("images/Running girl.jpg");
+  car3_img = loadImage("images/Running boy 2.jpg");
+  car4_img = loadImage("images/Running girl 2.jpg");
   ground = loadImage("images/ground.png");
 }
 
