@@ -7,18 +7,14 @@ var distance = 0;
 var database;
 
 var form, player, game;
-
-var cars, car1, car2, car3, car4;
-
-var track, car1_img, car2_img, car3_img, car4_img;
+var track;
 
 function preload(){
-  track = loadImage("images/track.jpg");
+  track = loadImage("images/track.png");
   car1_img = loadImage("images/Running boy.jpg");
   car2_img = loadImage("images/Running girl.jpg");
-  car3_img = loadImage("images/Running boy 2.jpg");
-  car4_img = loadImage("images/Running girl 2.jpg");
-  ground = loadImage("images/ground.png");
+  car3_img = loadImage("images/ Running boy 2.jpg");
+  car4_img = loadImage("images/ Running girl 2.jpg");
 }
 
 function setup(){
